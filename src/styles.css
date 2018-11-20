@@ -1,0 +1,63 @@
+@import "~animate.css/animate.css";
+* {
+    color: #888;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /*Share_________________________________________________________________________________________*/
+  .section_padding_100 {
+    padding: 100px 0;
+  }
+  
+  .section_padding_200 {
+    padding: 200px 0;
+  }
+  
+  .section_heading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .section_heading>p {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  .section_heading>h3 {
+    color: #FF9800 !important;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .btn-orange {
+    background-color: #354b60;
+    border: medium none;
+    border-radius: 6px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    margin: 15px auto 0;
+    padding: 15px 24px;
+    text-transform: capitalize;
+    width: auto;
+  }
+  
+  .btn-orange:hover {
+    background-color: #FF9800;
+    color: #fff;
+    transition: 400ms;
+    cursor: pointer;
+  }
+  
+  .btn-circle {
+    border-radius: 50% !important;
+  }
+  
