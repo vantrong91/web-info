@@ -1,12 +1,12 @@
 <header>
   <div class="container-fluid">
-    <div class="row main-menu sticky">
+    <div class="row main-menu sticky" id="main_menu">
       <div class="col-sm-2 offset-sm-1">
         <a href="#" class="main-logo">
           <h1><img src="../../../assets/image/logo.png" alt=""></h1>
         </a>
       </div>
-      <div class="col-sm-7 offset-sm-2">
+      <div class="col-sm-7 offset-sm-1">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">
           </a>
@@ -18,26 +18,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Hemo <span class="sr-only">(current)</span>
+                <a class="nav-link" [ngx-scroll-to]="'banner'">Hemo <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about_us">About</a>
+                <a class="nav-link" [ngx-scroll-to]="'#about_us'">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#service">Service</a>
+                <a class="nav-link" [ngx-scroll-to]="'#service'" >Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#work">Project</a>
+                <a class="nav-link" [ngx-scroll-to]="'#work'">Project</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#price">Price</a>
+                  <a class="nav-link" [ngx-scroll-to]="'#price'">Price</a>
                 </li>
               <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
+                <a class="nav-link"  [ngx-scroll-to]="'#news'">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" [ngx-scroll-to]="'#contact'">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [ngx-scroll-to]="'banner'">Login</a>
               </li>
             </ul>
           </div>
@@ -46,12 +49,12 @@
     </div>
   </div>
 
-  <div class="img-banner">
+  <div class="img-banner" id="banner">
     <img [src]="'../../../assets/image/banner.jpg'" alt="">
     <div class="slide_text">
       <h2><span>Your Growth</span> our business</h2>
       <h3>We're all working together; that's the secret.</h3>
-      <a class="btn btn-default btn-orange" href="#" role="button">Start Now</a>
+      <a class="btn btn-default btn-orange" href="" role="button">Start Now</a>
     </div>
   </div>
 

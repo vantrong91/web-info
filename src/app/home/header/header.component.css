@@ -15,10 +15,12 @@ header li.nav-item {
 
 header .nav-item .nav-link {
   color: white !important;
+  transition: 400ms;
 }
 
 header .nav-item .nav-link:hover {
   color: #FF9800 !important;
+  cursor: pointer;
 }
 
 .main-menu a.nav-link {
@@ -35,7 +37,7 @@ header .nav-item .nav-link:hover {
 .sticky {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
   height: 60px;
-  z-index: 999999 !important;
+  z-index:99 !important;
   background-color: #3a3939cc;
   width: 100%;
   position: fixed;

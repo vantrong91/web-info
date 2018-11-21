@@ -9,6 +9,7 @@ import { HeaderComponent } from './home/header/header.component';
 import { MainComponent } from './home/main/main.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { NgwWowModule } from 'ngx-wow';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { NgwWowModule } from 'ngx-wow';
   imports: [
     BrowserModule,
     NgbModule,
-    NgwWowModule
+    NgwWowModule,
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
